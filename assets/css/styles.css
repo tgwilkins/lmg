@@ -44,11 +44,15 @@ header {
     color: white;
     padding: 10px;
 }
+.home {
+    text-decoration: none;
+}
 .navigation {
     color: white;
     list-style: none;
     display: block;
     padding: 10px;
+    transition: 0.5s;
 }
 .navigation li {
     display: inline;
@@ -101,10 +105,16 @@ table, tr, td, th {
     margin: auto;
     border-radius: 2px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     
 header {
     padding: 0px;
+}
+.hidemob {
+    display: none;
+}
+.showmob {
+    display: block;
 }
     .logo {
         margin: auto;
@@ -124,8 +134,8 @@ header {
         margin: 10px;
     }
     .navigation li {
-        display: none;
         padding-bottom: 20px;
+        display: inherit;
     }
     main {
         margin: 10px;
