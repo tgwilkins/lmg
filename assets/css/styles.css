@@ -36,6 +36,7 @@ body {
 }
 header {
     background-color: green;
+    padding: 0px 20px;
 }
 .logo {
     font-family: 'Raleway';
@@ -96,11 +97,15 @@ table, tr, td, th {
     margin: auto;
 }
 .descimage {
-    max-width: 90%;
+    max-width: 100%;
     margin: auto;
     border-radius: 2px;
 }
 @media screen and (max-width: 600px) {
+    
+header {
+    padding: 0px;
+}
     .logo {
         margin: auto;
         text-align: center;
@@ -136,11 +141,6 @@ table, tr, td, th {
     .map {
         height: 300px;
         margin: auto;
-    }
-    .descimage {
-    margin: auto;
-    max-width: 100%;
-    overflow: hidden;
     }
     table {
         margin: 10% auto;
