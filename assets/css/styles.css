@@ -138,8 +138,9 @@ table, tr, td, th {
         margin: auto;
     }
     .descimage {
-    margin: -10px;
-    max-width: 110%;
+    margin: auto;
+    max-width: 100%;
+    overflow: hidden;
     }
     table {
         margin: 10% auto;
