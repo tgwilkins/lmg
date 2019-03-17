@@ -137,4 +137,11 @@ table, tr, td, th {
         height: 300px;
         margin: auto;
     }
+    .descimage {
+    margin: -10px;
+    max-width: 110%;
+    }
+    table {
+        margin: 10% auto;
+    }
     }
