@@ -41,11 +41,12 @@ header {
 .logo {
     font-family: 'Raleway';
     font-size: 35px;
-    color: white;
     padding: 10px;
+    text-decoration: none;
 }
 .home {
     text-decoration: none;
+    color: white;
 }
 .navigation {
     color: white;
@@ -124,6 +125,7 @@ header {
         display: block;
         float: left;
         height: 35px;
+        margin: 5px;
     }
     .bar {
         width: 40px;
