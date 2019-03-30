@@ -120,6 +120,7 @@ header {
 .hidemob {
     max-height: 0;
     opacity:0;
+    transition: .5s ease-in-out;
 }
 .showmob {
     max-height: 500px;
