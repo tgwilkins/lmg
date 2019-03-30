@@ -3,14 +3,8 @@ window.addEventListener('resize', restoreNav)
 var nav = document.querySelector('.navigation')
 
 function toggleNav() {
-    if ([...nav.classList].includes('hidemob')) {
-    nav.classList.remove('hidemob')
-    nav.classList.add('showmob')
-    }
-    else {
-        nav.classList.remove('showmob')
-    nav.classList.add('hidemob')
-    }
+    nav.classList.toggle('showmob')
+    nav.classList.toggle('hidemob')
 }
 
 function restoreNav() {
